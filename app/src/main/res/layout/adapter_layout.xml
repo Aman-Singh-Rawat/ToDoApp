@@ -9,9 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="20dp"
-        android:elevation="10dp"
-        app:cardBackgroundColor="#a594f9"
-        app:cardUseCompatPadding="true">
+        android:layout_margin="10dp"
+        app:cardElevation="20dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,25 +28,29 @@
                 android:layout_gravity="center"/>
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_weight="1">
 
                 <TextView
                     android:id="@+id/titleText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Title"
-                    android:textSize="22sp"/>
+                    android:hint="@string/title"
+                    android:textSize="22sp"
+                    android:textColorHint="#958D8D"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/titleDescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
-                    android:text="Descripton"/>
+                    android:textColorHint="#958D8D"
+                    android:textColor="@color/black"
+                    android:hint="@string/descripton"/>
 
             </LinearLayout>
 

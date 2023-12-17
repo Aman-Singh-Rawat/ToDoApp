@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ToDoApp DemoTwo</string>
+    <string name="what_is_to_be_done">What is to be done?</string>
+    <string name="enter_task_here">Enter Task Here</string>
+    <string name="description_your_task">Description Your Task</string>
+    <string name="enter_task_description_here">Enter Task Description here</string>
+    <string name="due_date">Due Date</string>
+    <string name="addbtn">AddBtn</string>
+    <string name="title">Title</string>
+    <string name="descripton">Descripton</string>
+    <string name="todo">TODO</string>
 </resources>
